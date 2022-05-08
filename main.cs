@@ -1,7 +1,7 @@
 using System;
 public class Stocks
 {
-    public static void Main() 
+    public static void Main()
 	  {
       int SValue;
 	    Console.WriteLine("STOCK EXCHANGE!");
@@ -20,7 +20,6 @@ public class Stocks
 	        SValue = rnd.Next(1,10000);
 	        Console.ForegroundColor = ConsoleColor.Green;
 	        Console.WriteLine("Symbol: " + SSS + " | Value: " + SValue + " | ↑ |");
-	        
 	        Console.WriteLine("-----------------------------------");
 	        i = i - 2;
 	    }
